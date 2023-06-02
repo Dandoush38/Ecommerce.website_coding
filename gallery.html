@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>  
+<head>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pictures</title>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="gallery.js"></script>
+</head>
+<body>
+
+<div class = "navigation">
+<a href= "#" class= "logo">
+<img src="pic.jpeg"/>
+</a>
+<ul class ="menu">
+<li> <a href="records.html">Home</a> </li>
+	<li> <a href="shop.html">Shop</a> </li>
+	<li> <a href="fabrics.html">Fabrics</a> </li>
+     <li> <a href="gallery.html">Gallery</a> </li>
+	 <li>  <a href="contact us.html">Contact Us</a> </li>
+
+</ul>
+</div>
+	<div id="popup" class="popup_plane" onclick="hide_popup();">
+		<figure>
+			<img id="popup_image" src="ch1.jpg" alt="sparkle"/>
+			<figcaption id="popup_caption">sparkle</figcaption>
+		</figure>
+	</div>
+	
+	<h1>Our Gallery</h1>
+	
+	<!-- Image Gallery -->
+	<div class="gallery">
+		<figure onclick='show_popup("ch1.jpg", "sparkle");'>
+			<img class="wide" src="ch1.jpg" alt="sparkle" title="sparkle" />
+		</figure>
+		<figure onclick='show_popup("ch2.jpg", "evening");'>
+			<img class="tall" src="ch2.jpg" alt="evening" title="evening" />
+		</figure>
+		<figure onclick='show_popup("ch4.jpg", "gold");'>
+			<img class="tall" src="ch4.jpg" alt="gold" title="gold" />
+		</figure>
+		<figure onclick='show_popup("ch5.jpg", "midnight");'>
+			<img class="tall" src="ch5.jpg" alt="midnight" title="midnight" />
+		</figure>
+		<figure onclick='show_popup("ch6.jpg", "Pink");'>
+			<img class="wide" src="ch6.jpg" alt="Pink" title="Pink" />
+		</figure>
+		<figure onclick='show_popup("ch3.jpg", "velvet");'>
+			<img class="wide" src="ch3.jpg" alt="velvet" title="velvet" />
+		</figure>
+		<figure onclick='show_popup("ch7.jpg","");'>
+			<img class="wide" src="ch7.jpg" alt="purple=" title="purple" />
+		</figure>
+		<figure onclick='show_popup("ch8.jpg","grey");'>
+			<img class="wide" src="ch8.jpg" alt="grey="p title= "grey" />
+		</figure>
+		<figure onclick='show_popup("ch9.jpg","red");'>
+			<img class="wide" src="ch9.jpg" alt="red="p title= "red" />
+			</figure>
+			
+			<figure onclick='show_popup("ch10.jpg","yellow");'>
+			<img class="wide" src="ch10.jpg" alt="yellow="p title= "yellow" />
+		</figure>
+		<figure onclick='show_popup("ch11.jpg","brown");'>
+			<img class="wide" src="ch11.jpg" alt="brown="p title= "brown" />
+		</figure>
+		<figure onclick='show_popup("ch12.jpg","green");'>
+			<img class="wide" src="ch12.jpg" alt="green="p title= "green" />
+		</figure>
+	</div>
+</body>
+
+
+
+
+
+</html>
+
+</html>

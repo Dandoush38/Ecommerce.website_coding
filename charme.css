@@ -1,0 +1,294 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+}	
+
+	a {
+	text-decoration: none;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Title{
+	font-size:1.2rem;
+	font-weight:200;
+	color:black;
+	margin-bottom:20px;
+	resize: none;
+	height:200px;
+    width:300px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	position:absolute;
+	top:45px;
+	left:500px;
+	
+}
+
+.banner {
+	font-size:1rem;
+	font-weight:200;
+	color: black;
+	margin-bottom:20px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	position:absolute;
+	bottom:-270px;
+}
+.banner span {
+	color: crimson;
+}
+
+#banner .cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color:black;
+	background-color: transparent;
+	border: 2px solid gold;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+#banner .cta:hover {
+	color: white;
+	background-color:gold;
+}
+
+	
+body{
+width:100%;
+height:100%;
+background-color:#ffffff;
+}
+
+#myVideo {
+position:absolute; 
+ right: 0; 
+ bottom:-15%;
+ min-width:100%;
+ min-height:100%; 
+ width: auto;
+ height:auto;
+z-index:-1;
+} 
+
+*{
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+} 
+
+nav{
+	width:100%;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+	z-index: 100;
+}
+.social-call{
+	height: 40px;
+	border:1px solid rgba(0,0,0,0.05);
+	display: flex;
+	justify-content:center;
+	align-items:center;
+} 
+.social a{
+	margin: 0px 5px;
+	color: rgba(0,0,0,0.7);
+	font-size: 0.9rem;
+    
+}
+.phone{
+	color: rgba(0,0,0,0.7);
+	margin-left: 30px;
+	font-size: 0.9rem;
+} 
+.social a:hover{
+	color: gold;
+	transition: all ease 0.3s;
+} 
+
+.navigation{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 0px 45px;
+	justify-content:center;
+	align-items:center;
+}
+
+.menu{
+	display:flex;
+} 
+
+.menu li{
+	position:relative;
+	margin: 20px;
+	display:flex;
+	text-transform:uppercase;
+	font-weight: 500;
+} 
+.menu li a{
+	color: #555555;
+} 
+.right-menu a{
+	position: relative;
+	top: -55px;
+	left:1100px;
+	width: 25px;
+	height: 25px;
+	margin: 0px 10px;
+	font-size:1.2rem;
+	color:rgba(0,0,0,0.7);
+	
+} 
+
+.menu a:hover,
+.right-menu a:hover,
+.search-cancel:hover{
+	color: gold;
+	transition: all ease 0.3s;
+} 
+
+
+.fa-shopping-cart{
+	position:relative;
+	
+}
+.num-cart-product{
+	position: absolute;
+	top: -17px;
+	right: -17px;
+	width: 25px;
+	height: 25px;
+	font-size:0.8rem; 
+	border-radius: 50%;
+	background-color:gold;
+	color:#ffffff;
+	display: flex;
+	 justify-content:center;
+	 align-items: center;
+	 font-weight: 400;
+} 
+	
+.search-bar{
+	width:100%;
+	height:300px;
+	background-color:#ffffff;
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	display: flex;
+	justify-content:center;
+	box-shadow: 2px -5px 30px rgba(0,0,0,0.1);
+	z-index: 101;
+} 
+.search-input{
+	width: 90%;
+	border-bottom: 2px solid #555555;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 100px;
+	margin-top: 20px;
+} 
+.search-bar input{
+	width: 100%;
+	padding: 30px;
+	border: none;
+	outline: none;
+	font-size: 2rem;
+	margin: 20px;
+	padding: 0px 20px;
+} 
+.search-cancel{
+	color: #272727;
+	font-size: 2rem;
+	padding-right: 40px;
+} 
+.search-bar{
+	display: none;
+} 
+.search-bar-active{
+	display:flex;
+} 
+
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
